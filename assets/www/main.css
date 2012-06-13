@@ -1,0 +1,86 @@
+      html { height: 100%; margin-bottom:0px; }
+      body { height: 100%; margin: 0; padding: 0; padding-bottom:0px; }
+      #map_canvas { height: 100%; position:absolute; top: 25px; }
+      #title { font-size: 30px; 
+        color: #fff; 
+        background-color: #333; 
+        z-index: 999; 
+        position: fixed; 
+        margin-left: 0px;
+        margin-right:0px; 
+        left: 0px;
+        top: 0px;
+        height: 25px; 
+        font-family: Helvetica; 
+        padding: 10px; 
+        width: 100%;
+        -moz-box-shadow:    0px 2px 2px 3px #333;
+        -webkit-box-shadow: 0px 2px 2px 3px #333;
+        box-shadow:         0px 2px 2px 3px #333;
+      }
+      #title-container { 
+        background-color: #333; 
+        width: 100%; 
+        position: fixed; 
+        top: 0px;
+        margin-left: 0px; 
+        margin-right: 0px; 
+      }
+      .container { 
+        width:100%; 
+        margin-left: auto; 
+        margin-right: auto; 
+      }
+      #stream { 
+        z-index: 999; 
+        background-color: #333;
+        color: #fff; 
+        position: fixed; 
+        bottom: 0px; 
+        padding: 5px; 
+        margin-bottom: 0px;
+        font-size: x-small; 
+        width: 100%;
+        margin-right: 0px; 
+        height: 34px;
+      }
+      #stream li { list-style-type: none }
+      #about-container {
+        display: none;
+        -moz-box-shadow:    0px 0px 2px 3px #333;
+        -webkit-box-shadow: 0px 0px 2px 3px #333;
+        box-shadow:         0px 0px 2px 3px #333;
+        background-color: #fff; 
+        z-index: 999; 
+        position: fixed; 
+        top: 140px; 
+        margin-left: 0px;
+        left:0px;
+        width: 280px; 
+        padding:10px;
+      }
+      #about-toggle {
+        position: fixed;
+        -moz-box-shadow:    0px 2px 2px 3px #333;
+        -webkit-box-shadow: 0px 2px 2px 3px #333;
+        box-shadow:         0px 2px 2px 3px #333;
+        background-color: #fff; 
+        z-index: 999; 
+        position: fixed;
+        margin-left: 0px; 
+        left:0px;
+
+      }
+      #counter-box {
+        z-index: 999; 
+        background-color: #fff; 
+        position: fixed; 
+        padding: 10px;
+        bottom: 50px;
+        right:0px; 
+        font-size: small;
+        -moz-box-shadow:    0px 1px 1px 2px #333;
+        -webkit-box-shadow: 0px 1px 1px 2px #333;
+        box-shadow:         0px 1px 1px 2px #333;
+      }
+    

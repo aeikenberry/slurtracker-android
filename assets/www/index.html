@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Slur Tracker</title>
+  <link rel="SHORTCUT ICON" href="http://dl.dropbox.com/u/12840891/shit.png">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <script type="text/javascript" charset="utf-8" src="cordova-1.8.0.js"></script>
+  <script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA1ICWhIlpdeRAWe5A1K_Ju7TSZtPmebIg&sensor=true">
+  </script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="http://slurtracker.com/socket.io/socket.io.js"></script>
+  <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+  <script type="text/javascript"src="client.js"></script>
+
+</head>
+
+<body onload="initialize()">
+  <div id="title">slur<b>Tracker</b> 
+    <div style="float:right;padding-top:10px;">
+        <i class="icon-info-sign"></i>
+</div></div>
+  
+    <div id="map_canvas" style="width:100%; height:100%; bottom:0px; position:absolute;"></div>
+  
+  <div id="stream">
+	<ul id="stream">
+	</ul>
+  </div>
+  <div class="info"></div>
+
+  <div id="about-container">
+    <div id="about">slur<b>Tracker</b> tracks slurs on Twitter in real-time and maps them
+      geographically.<br>
+
+      
+      <br>
+      <a href="mailto:aeikenberry@gmail.com">Email me!</a>
+      <br><br>
+      I created a GitHub repo for a generalized, track-whatever-want-not-just-slurs project
+      <a href="https://github.com/aeikenberry/twitter-location-tracker">here</a>.
+    </div>
+  </div>
+
+  <div id="counter-box">
+    <B>Since you started:</B> <br>
+    N-word: <span id="n-word-count">0</span> <br>
+    Midget: <span id="midget-count">0</span> <br>
+    F$gg$t: <span id="faggot-count">0</span> <br>
+    Fag: <span id="fag-count">0</span> 
+  </div>
+
+</body>
+</html>
